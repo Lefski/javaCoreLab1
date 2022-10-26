@@ -15,7 +15,7 @@ public class Tasks {
 
     void doTask4(){
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         int number = -1;
         int maxNumber = -2_147_483_647;
         int minNumber = 2_147_483_647;
@@ -33,4 +33,18 @@ public class Tasks {
         System.out.println("Максимальный элемент: " + maxNumber + " Минимальный элемент: " + minNumber);
 
     }
+
+    void doTask5(String[] args){
+        for (String arg: args){
+            System.out.println(arg);
+        }
+    }
+
+    void doTask6(){
+        for (double i = 1; i < 11; i++) {
+            System.out.println(1 / i);
+        }
+    }
+
+
 }
